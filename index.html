@@ -6,25 +6,69 @@
     <title>Portal Semântico</title>
 </head>
 <body>
-    <!-- Conteúdo da página -->
      <header>
-        <h1>Bem-vindo ao Portal Semântico</h1>
+        <div>
+            <h1>Bem-vindo ao Portal Semântico</h1>
+            <figure>
+                <img src="logo_cimol.png" alt="Logo da escola Cimol" width="50">
+            </figure>
+        </div>
+
         <p>Nome: Miguel A. B. de Moura</p>
         <p>Turma: 62 1</p>
      </header>
 
      <section>
-        
+        <h2>Minhas Habilidades</h2>
+        <p>
+            Estou fazendo o curso Técnico em Informática na escola Técnica estadual Monteiro Lobato. Tenho hablidades em desenvolvimento web com as linguagens <strong>HTML CSS, Java Script e Python</strong>; programação; design web e resolução de problemas. Fiz um curso de desenvolvimento Web na <em>Alura</em> e  informática na <em>Mapp</em>
+        </p>
      </section>
 
      <main>
         <form>
+            <fieldset>
+                <legend>Formulário de Contato</legend>
 
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <fieldset>
+                    <legend>Área de Interesse</legend>
+                    <input type="radio" id="frontend" name="area_interesse" value="frontend">
+                    <label for="frontend">Front-End</label><br>
+                    <input type="radio" id="backend" name="area_interesse" value="backend">
+                    <label for="backend">Back-End</label><br>
+                    <input type="radio" id="fullstack" name="area_interesse" value="fullstack">
+                    <label for="fullstack">Full-Stack</label><br>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Habilidades Técnicas</legend>
+                    <input type="checkbox" id="html" name="habilidades" value="html">
+                    <label for="html">HTML</label><br>
+                    <input type="checkbox" id="C" name="habilidades" value="C">
+                    <label for="C">C</label><br>
+                    <input type="checkbox" id="git" name="habilidades" value="Git">
+                    <label for="git">Git</label><br>
+                    <input type="checkbox" id="python" name="habilidades" value="python">
+                    <label for="python">Python</label><br>
+                </fieldset>
+
+                <br>
+                <button type="submit">Enviar</button>
+
+            </fieldset>
         </form>
      </main>
 
      <footer>
-        <p>&copy; 2024 Portal Semântico. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Portal Semântico. Todos os direitos reservados Miguel Moura 62 1.</p>
+        <p>Link para </p>
      </footer>
 </body> 
 </html>
