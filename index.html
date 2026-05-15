@@ -5,70 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Semântico</title>
 </head>
-<body>
-     <header>
-        <div>
-            <h1>Bem-vindo ao Portal Semântico</h1>
-            <figure>
-                <img src="logo_cimol.png" alt="Logo da escola Cimol" width="50">
+<body> <!-- Corpo da página: tudo que aparece visualmente -->
+     <header> <!-- Cabeçalho da página com nome e logo -->
+        <div> <!-- Agrupa o título e a logo -->
+            <h1>Bem-vindo ao Portal Semântico</h1> <!-- h1 da foramatação de título a este texto -->
+            <figure> <!-- Elemento semântico para imagem com contexto -->
+                <img src="logo_cimol.png" alt="Logo da escola Cimol" width="50"> <!-- Imagem da logo; alt descreve para acessibilidade -->
             </figure>
         </div>
 
-        <p>Nome: Miguel A. B. de Moura</p>
-        <p>Turma: 62 1</p>
+        <p>Nome: Miguel A. B. de Moura</p> <!-- Organiza semânticamente e da formatação padrão ao texto -->
+        <p>Turma: 62 1</p> <!-- Organiza semânticamente e da formatação padrão ao texto -->
      </header>
 
-     <section>
-        <h2>Minhas Habilidades</h2>
+     <section> <!-- Organiza semânticamente o conteúdo em uma seção -->
+        <h2>Minhas Habilidades</h2> <!-- Da formatação de subtítulo ao texto -->
         <p>
-            Estou fazendo o curso Técnico em Informática na escola Técnica estadual Monteiro Lobato. Tenho hablidades em desenvolvimento web com as linguagens <strong>HTML CSS, Java Script e Python</strong>; programação; design web e resolução de problemas. Fiz um curso de desenvolvimento Web online na escola <em>Alura</em> e de informática avançada (presencial) na <em>Mapp</em>.
+            Estou fazendo o curso Técnico em Informática na escola Técnica estadual Monteiro Lobato. Tenho hablidades em desenvolvimento web com as linguagens <strong> <!-- <strong> texto em negrito --> HTML CSS, Java Script e Python</strong>; programação; design web e resolução de problemas. Fiz um curso de desenvolvimento Web online na escola <em>Alura</em> e de informática avançada (presencial) na <em>Mapp</em>. <!-- <em> texto em itálico -->
         </p>
      </section>
 
-     <main>
-        <form>
-            <fieldset>
-                <legend>Formulário de Contato</legend>
+     <main> <!-- tag de semântica para o conteúdo principal da página -->
+        <form> <!-- tag para adicionar um formulário -->
+            <fieldset> <!-- Adiciona uma borda ao redor dos elementos, agrupando-os -->
+                <legend>Formulário de Contato</legend> <!-- Legenda para o grupo criado com o fieldset -->
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <label for="email">Email:</label> <!-- "rótulo" para o input (entrada de dados) -->
+                <input type="email" id="email" name="email" required> <!-- entrada de dados -->
 
-                <br><br>
+                <br><br> <!-- adiciona quebra de linha -->
 
-                <fieldset>
-                    <legend>Área de Interesse</legend>
-                    <input type="radio" id="frontend" name="area_interesse" value="frontend">
-                    <label for="frontend">Front-End</label><br>
-                    <input type="radio" id="backend" name="area_interesse" value="backend">
-                    <label for="backend">Back-End</label><br>
-                    <input type="radio" id="fullstack" name="area_interesse" value="fullstack">
-                    <label for="fullstack">Full-Stack</label><br>
+                <fieldset><!-- Adiciona uma borda ao redor dos elementos, agrupando-os -->
+                    <legend>Área de Interesse</legend> <!-- Legenda para o grupo criado com o fieldset -->
+                    <input type="radio" id="frontend" name="area_interesse" value="frontend"> <!-- entrada de dados -->
+                    <label for="frontend">Front-End</label><br> <!-- "rótulo" para o input (entrada de dados) -->
+                    <input type="radio" id="backend" name="area_interesse" value="backend"> <!-- entrada de dados -->
+                    <label for="backend">Back-End</label><br> <!-- "rótulo" para o input (entrada de dados) -->
+                    <input type="radio" id="fullstack" name="area_interesse" value="fullstack"> <!-- entrada de dados -->
+                    <label for="fullstack">Full-Stack</label><br> <!-- "rótulo" para o input (entrada de dados) -->
                 </fieldset>
 
-                <br>
+                <br> <!-- adiciona quebra de linha -->
 
-                <fieldset>
-                    <legend>Habilidades Técnicas</legend>
-                    <input type="checkbox" id="html" name="habilidades" value="html">
-                    <label for="html">HTML</label><br>
-                    <input type="checkbox" id="C" name="habilidades" value="C">
-                    <label for="C">C</label><br>
-                    <input type="checkbox" id="git" name="habilidades" value="Git">
-                    <label for="git">Git</label><br>
-                    <input type="checkbox" id="python" name="habilidades" value="python">
-                    <label for="python">Python</label><br>
+                <fieldset> <!-- Adiciona uma borda ao redor dos elementos, agrupando-os -->
+                    <legend>Habilidades Técnicas</legend> <!-- Legenda para o grupo criado com o fieldset -->
+                    <input type="checkbox" id="html" name="habilidades" value="html"> <!-- entrada de dados -->
+                    <label for="html">HTML</label><br> <!-- "rótulo" para o input (entrada de dados) e <br> para espaçamento -->
+                    <input type="checkbox" id="C" name="habilidades" value="C"> <!-- entrada de dados -->
+                    <label for="C">C</label><br><!-- "rótulo" para o input (entrada de dados) e <br> para espaçamento -->
+                    <input type="checkbox" id="git" name="habilidades" value="Git"> <!-- entrada de dados -->
+                    <label for="git">Git</label><br><!-- "rótulo" para o input (entrada de dados) e <br> para espaçamento -->
+                    <input type="checkbox" id="python" name="habilidades" value="python"> <!-- entrada de dados -->
+                    <label for="python">Python</label><br><!-- "rótulo" para o input (entrada de dados) e <br> para espaçamento -->
                 </fieldset>
 
-                <br>
-                <button type="submit">Enviar</button>
+                <br> <!-- adiciona quebra de linha -->
+                <button type="submit">Enviar</button> <!-- Botão que envia o formulário -->
 
             </fieldset>
         </form>
      </main>
 
-     <footer>
-        <p>&copy; 2026 Portal Semântico. Todos os direitos reservados Miguel de Moura</p>
-        <p>Link para meu GitHub: <a href="https://github.com/Miguel-Boff-Moura" target="_blank">Miguel-Boff-Moura</a></p>
+     <footer> <!-- Rodapé da página -->
+        <p>&copy; <!-- Adiciona o simbolo de copyrigth --> 2026 Portal Semântico. Todos os direitos reservados Miguel de Moura</p> <!-- Organiza semânticamente e da formatação padrão ao texto -->
+        <p>Link para meu GitHub: <a href="https://github.com/Miguel-Boff-Moura" target="_blank">Miguel-Boff-Moura</a></p> <!-- <p> para organizar semânticamente e dar formatação padrão ao texto; <a> para colocar um link clicável e target="_blank" faz esse link abrir em nova aba no navegador -->
      </footer>
 </body> 
 </html>
